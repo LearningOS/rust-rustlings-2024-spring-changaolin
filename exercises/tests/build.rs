@@ -18,5 +18,5 @@ fn main() {
 
     // Enable "pass" feature to make the testcase return early.
     let your_command = "rustc-cfg=feature=\"pass\"";
-    println!("{}", your_command);
+    println!("cargo:{}", your_command);
 }
